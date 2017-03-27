@@ -1,0 +1,28 @@
+REVIEW
+
+POSIX calls
+- all use errno.h
+- return -1 on error
+- can get error w/ perror
+
+
+
+C
+
+
+typedef struct foo {
+	int i;
+	struct foo f;
+} Foo, *FooPtr;
+
+Foo f;
+
+
+
+C++
+
+
+
+struct foo {
+	asd
+};
